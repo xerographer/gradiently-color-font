@@ -1,0 +1,32 @@
+# SCFBuild configuration file for Gradiently SVGinOT
+output_file: build/Gradiently-SVGinOT.ttf
+verbose: True
+glyph_svg_dir: svg-bw
+color_svg_dir: svg-color
+# Translate the B&W SVGs on import into glyphs.
+glyph_translate_x: 0
+glyph_translate_y: 0
+#color_transform:
+# Space width matching DejaVu Sans.
+width_space: 561
+table_name:
+  copyright: >
+    Gradiently © Xerographer Fonts 2017 CC-BY-4.0
+  family: Gradiently
+  # Subfamily is also called Style or Weight. Often set to: Regular
+  subfamily: Regular
+  unique_id: Gradiently SVGinOT xerographer.com
+  full_name: Gradiently SVGinOT
+  # No spaces in PostScript Names
+  postscript_name: GradientlySVGinOT
+  #trademark:
+  manufacturer: Xerographer Fonts
+  designer: Max Infeld
+  description: >
+    A SVGinOT color font made by Xerographer Fonts in San Francisco, California.
+    Copyright 2017 Max Infeld and Brad Erickson CC-BY-4.0.
+    https://github.com/xerographer/gradiently-color-font
+  url_vendor: https://xerographer.github.io/
+  url_designer: https://about.me/maxinfeld
+  license: Creative Commons Attribution 4.0 International
+  url_license: http://creativecommons.org/licenses/by/4.0/
